@@ -1,0 +1,55 @@
+
+{
+    "workbench.colorTheme": "Solarized Light",
+    
+    //控制 Git.Sync是否出现在状态栏中
+    "git.enableStatusBarSync": true,
+
+    //字体
+    "editor.fontFamily": "Cascadia Code, '宋体'",
+    "debug.console.fontFamily": "'Cascadia Code','宋体'",
+    // "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontFamily": "'Cascadia Code'",
+    "editor.fontSize": 18,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 16,
+    "editor.lineHeight": 1.6,
+    "editor.fontLigatures": true,
+
+    "window.zoomLevel": 0.2,    //侧边栏字体大小（笔记本）
+
+    //自动保存
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    //图标
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.productIconTheme": "fluent-icons",
+
+    //快捷Preference设置
+    "window.commandCenter": true,
+    "window.titleBarStyle": "custom",
+
+    //光标平滑
+    // "editor.cursorSmoothCaretAnimation": "on" ,
+
+    //vim
+    // "vim.disableExtension": true, 
+    "vim.leader": "<space>",
+    // "editor.lineNumbers": "relative",
+    "vim.surround": true,
+    "vim.sneak": true,
+    "vim.useSystemClipboard": true,     //使用系统剪切板
+    "vim.hlsearch": true,               //搜索高亮
+    "vim.ignorecase": true,             //搜素忽略大小写
+    "vim.useCtrlKeys": true,            //允许vim以ctrl开头快捷键覆盖默认快捷键
+    "vim.handleKeys": {             //忽略一些快捷键
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+    },
+
+    
+    "explorer.confirmDelete": false,
+    
+}
